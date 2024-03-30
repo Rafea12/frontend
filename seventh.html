@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .post-content {
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .post-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .post-meta {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        
+        .post-body {
+            line-height: 1.6;
+        }
+        
+        .related-posts {
+            margin-top: 30px;
+        }
+        
+        .related-post {
+            margin-bottom: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .related-post img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .related-post-content {
+            padding: 15px;
+        }
+        
+        .related-post-title {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .related-post-excerpt {
+            color: #6c757d;
+        }
+        
+        .read-more-btn {
+            display: block;
+            margin-top: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Blog Post Title</h1>
+            <p class="post-meta">Published on March 28, 2024 | Category: Technology | Author: John Doe</p>
+        </div>
+
+        <div class="post-content">
+            <div class="post-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+
+        <div class="related-posts">
+            <div class="related-post">
+                <img src="related_post1.jpg" alt="Related Post 1">
+                <div class="related-post-content">
+                    <h2 class="related-post-title">Related Post Title 1</h2>
+                    <p class="related-post-excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+            <div class="related-post">
+                <img src="related_post2.jpg" alt="Related Post 2">
+                <div class="related-post-content">
+                    <h2 class="related-post-title">Related Post Title 2</h2>
+                    <p class="related-post-excerpt">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="#" class="read-more-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slider-container">
+        <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+        <p>Slider Value: <span id="sliderValue">50</span></p>
+    </div>
+    <a href="sixth.html"></a>
+</body>
+
+</html>

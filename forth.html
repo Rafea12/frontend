@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .navbar h1 {
+            margin: 0;
+        }
+        
+        .sidebar {
+            background-color: #f4f4f4;
+            width: 250px;
+            padding: 20px;
+            height: 100vh;
+            box-sizing: border-box;
+            float: left;
+        }
+        
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .card h2 {
+            margin-top: 0;
+        }
+        
+        .placeholder {
+            margin-bottom: 20px;
+        }
+        
+        .large-box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .button-group {
+            margin-top: 10px;
+        }
+        
+        .button-group button {
+            padding: 8px 12px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        
+        .button-group button:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Dashboard</h1>
+        <a href="#">Logout</a>
+    </div>
+
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Notifications</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="placeholder">
+            <h2>Placeholder</h2>
+            <p>This is a placeholder for your content.</p>
+        </div>
+
+        <div class="large-box">
+            <h2>What's On Your Mind?</h2>
+            <p>Share your thoughts here.</p>
+            <div class="button-group">
+                <button>Post</button>
+            </div>
+        </div>
+
+        <div class="large-box">
+            <h2>Business Content</h2>
+            <p>Content block 1: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Content block 2: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="button-group">
+                <button>Edit</button>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+    <div class="slider-container">
+        <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+        <p>Slider Value: <span id="sliderValue">50</span></p>
+    </div>
+    <a href="third.html"></a>
+</body>
+
+</html>
